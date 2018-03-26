@@ -76,19 +76,19 @@ namespace ELTRSS
         //插入一些数据
         void fillTable()
         {
-            string sql = "insert into user (name, code) values ('LiuXuan', 1)";
+            string sql = "insert into user (name, code) values ('刘旋', 1)";
             SQLiteCommand command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();
 
-            sql = "insert into user (name, code) values ('WeiHongyu', 2)";
+            sql = "insert into user (name, code) values ('魏红雨', 2)";
             command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();
 
-            sql = "insert into user (name, code) values ('LiuXianghua', 3)";
+            sql = "insert into user (name, code) values ('刘向华', 3)";
             command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();
 
-            sql = "insert into user (name, code) values ('WangShengliang', 4)";
+            sql = "insert into user (name, code) values ('刘东', 4)";
             command = new SQLiteCommand(sql, m_dbConnection);
             command.ExecuteNonQuery();
 
